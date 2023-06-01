@@ -2,7 +2,7 @@
 A Modern and Responsive Apps/Websites with Complete theme customization functionality that stores theme state/value in your browser's local storage.
 
 ## Website✨
-https://www.udemy.com/course/react-js-portfolio-website-with-theme-customization/learn/lecture/34819522?start=180#overview
+https://6478a339f484b1056e0c4db9--magical-strudel-7de844.netlify.app/
 
 ## Features✨
 
