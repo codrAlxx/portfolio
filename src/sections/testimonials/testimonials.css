@@ -1,0 +1,56 @@
+#testimonials {
+    padding-bottom: 0;
+}
+
+.swiper {
+    height: 40rem;
+    /* this paddint top is to give space for micro interaction on hover of swiper slide */
+    padding-top: 2rem;
+}
+
+.swiper-slide {
+    cursor: grab;
+}
+
+.testimonial__client {
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: baseline;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.testimonial__client-avatar {
+    border-radius: var(--border-radius-2);
+    overflow: hidden;
+    transition: var(--transition);
+}
+.link_certificate {
+    padding: 1.5rem;
+    text-align: center;
+}
+.swiper-pagination {
+    margin-bottom: 4rem;
+}
+
+.swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+.link_certificate a {
+    width: 1rem;
+    aspect-ratio: 1/1;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-1);
+    transition: transform 0.5s;
+    color: var(--color-black);
+}
+
+.link_certificate a:hover {
+    background: transparent;
+    color: var(--color-primary);
+    transform: scale(0.55);
+}
